@@ -1,0 +1,57 @@
+/* ..................................
+ 01. table CSS 
+.................................. */
+.info-table-wrapper .page-item.active .page-link {
+  background: #DA542E;
+  border: 1px solid #DA542E;
+}
+
+table.info-table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td.dtr-control:before,
+table.info-table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th.dtr-control:before {
+  background: #DA542E;
+}
+
+.dataTables_wrapper {
+  overflow-x: auto;
+}
+
+.info-table-wrapper {
+  padding: 0 20px;
+}
+
+.info-table-wrapper .page-link {
+  color: #DA542E;
+}
+
+.info-table-wrapper .page-link:focus {
+  box-shadow: none;
+}
+
+table.info-table.dataTable.display tbody>tr.odd.selected>.sorting_1,
+table.info-table.dataTable.order-column.stripe tbody>tr.odd.selected>.sorting_1,
+table.info-table.dataTable.stripe tbody>tr.odd.selected,
+table.info-table.dataTable.stripe tbody>tr.odd>.selected,
+table.info-table.dataTable.display tbody>tr.odd.selected,
+table.info-table.dataTable.display tbody>tr.odd>.selected {
+  background: rgba(218, 84, 47, 0.376);
+}
+
+table.dataTable.hover tbody>tr.selected:hover,
+table.dataTable.hover tbody>tr>.selected:hover,
+table.dataTable.display tbody>tr.selected:hover,
+table.dataTable.display tbody>tr>.selected:hover,
+table.dataTable.display tbody>tr.even.selected>.sorting_1,
+table.dataTable.order-column.stripe tbody>tr.even.selected>.sorting_1,
+table.dataTable.display tbody>tr.selected:hover>.sorting_1,
+table.dataTable.order-column.hover tbody>tr.selected:hover>.sorting_1,
+table.dataTable tbody>tr.selected,
+table.dataTable tbody>tr>.selected {
+  background: rgba(218, 83, 46, 0.568);
+}
+
+
+@media (max-width:767px) {
+  div.dtr-modal div.dtr-modal-display {
+    height: 67%;
+  }
+}

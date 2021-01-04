@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title here -->
+    <title>This is Title</title>
+
+    <!-- favicon here -->
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+
+    <!-- all CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+  </head>
+
+  <body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <div class="main-wrapper" id="main-wrapper">
+      <!--===== header area start =====-->
+      <div class="header">
+        <div class="header-content d-flex justify-content-between align-items-center">
+          <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+          <div class="dropdown header-user-menu">
+            <a class="dropdown-toggle" href="#" role="button" id="user-trigger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/user.jpg" alt="user"><span>Hello, Admin
+                <i class="fas fa-caret-down"></i></span></a>
+            <div class="dropdown-menu" aria-labelledby="user-trigger">
+              <a class="dropdown-item" href="profile.html"><i class="fas fa-user"></i> Profile</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-envelope"></i> Inbox</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-cog"></i> Account Settings</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-power-off"></i> Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--===== header area end =====-->
+
+      <!--===== sidebar start =====-->
+      <div class="sidebar">
+        <div class="logo">LSX</div>
+        <ul class="sidebar-menu">
+          <li><a href="index.html"><i class="fas fa-home"></i> Dashboard</a></li>
+
+          <li><a><i class="fas fa-file-alt"></i> Applications <span><i class="fas fa-caret-down"></i></span></a></li>
+          <ul class="sidebar-sub-menu">
+            <li><a href="#">Completed</a></li>
+            <li><a href="#">Pending</a></li>
+            <li><a href="#">Other Applications</a></li>
+            <li><a href="#">Website Leads</a></li>
+            <li><a href="#">Application Forms</a></li>
+            <li><a href="#">Uploads</a></li>
+            <li><a href="#">Uploads Check List</a></li>
+          </ul>
+
+          <li><a><i class="fas fa-cogs"></i> Account Settings <span><i class="fas fa-caret-down"></i></span></a></li>
+          <ul class="sidebar-sub-menu">
+            <li><a>Application <span><i class="fas fa-caret-down"></i></span></a></li>
+            <ul class="sidebar-sub-menu">
+              <li><a href="#">Application</a></li>
+              <li><a href="#">Web Site Settings</a></li>
+              <li><a href="#">General</a></li>
+              <li><a href="#">Billing</a></li>
+            </ul>
+
+            <li><a href="#">Web Site Settings</a></li>
+            <li><a href="#">General</a></li>
+            <li><a href="#">Billing</a></li>
+          </ul>
+
+          <li><a><i class="fas fa-network-wired"></i> Connect My CRM <span><i class="fas fa-caret-down"></i></span></a></li>
+          <ul class="sidebar-sub-menu">
+            <li><a href="#">Zapier</a></li>
+          </ul>
+
+          <li><a><i class="far fa-envelope"></i> Forms <span><i class="fas fa-caret-down"></i></span></a></li>
+          <ul class="sidebar-sub-menu">
+            <li><a href="blog-info-form.html">Blog Edit Form</a></li>
+            <li><a href="com-loan-info-form.html">Loan Info Form</a></li>
+            <li><a href="company-info-form.html">Company Info Form</a></li>
+            <li><a href="learning-center-info-form.html">Learning Info Form</a></li>
+            <li><a href="menu-info-form.html">Menu Info Form</a></li>
+            <li><a href="slider-info-form.html">Slider Info Form</a></li>
+            <li><a href="social-info-form.html">Social Info Form</a></li>
+          </ul>
+
+          <li class="active"><a><i class="fas fa-toolbox"></i> Elements <span><i class="fas fa-caret-down"></i></span></a></li>
+          <ul class="sidebar-sub-menu">
+            <li><a href="bruiser-template.html">Bruiser Template</a></li>
+            <li><a href="button.html">Buttons</a></li>
+            <li><a href="alerts.html">Alerts</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="form-elements.html">Form Elements</a></li>
+            <li class="active-theme"><a href="modal.html">Modal</a></li>
+          </ul>
+        </ul>
+      </div>
+      <!--===== sidebar end =====-->
+
+      <!--===== content body start =====-->
+      <div class="content-body">
+        <div class="container-fluid">
+          <div class="all-modal">
+            <div class="element-design" id="modal-style">
+              <h3>Modal</h3>
+              <div class="single-modal-wrapper">
+                <div class="single-modal">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="button button-auto color-combo-5" data-toggle="modal" data-target="#modal1">
+                    Simple Modal
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="lsx-modal modal fade" id="modal1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Form Without Label</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Email">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="Password">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="Confirm Password">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-12">
+                              <div class="form-group single-form-input">
+                                <textarea class="form-control" rows="3" placeholder="Messages"></textarea>
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <button class="button button-2x color-combo-4">Submit</button>
+                            </div>
+                            <!--col end -->
+                          </div> <!-- row end -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="single-modal">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="button button-auto color-combo-4" data-toggle="modal" data-target="#modal2">
+                    Centered Modal
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="lsx-modal modal fade" id="modal2">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Form With Label</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Email">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="Password">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-md-6">
+                              <div class="input-group single-form-input">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="Confirm Password">
+                              </div>
+                            </div> <!-- col end -->
+
+                            <div class="col-12">
+                              <div class="form-group single-form-input">
+                                <textarea class="form-control" rows="3" placeholder="Messages"></textarea>
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <button class="button button-2x color-combo-4">Submit</button>
+                            </div>
+                            <!--col end -->
+                          </div> <!-- row end -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="single-modal">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="button button-auto color-combo-6" data-toggle="modal" data-target="#modal3">
+                    Inline form modal
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="lsx-modal lsx-modal-wide modal fade" id="modal3">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Inline Form</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="form-inline">
+                            <div class="single-form-input inline-form-input">
+                              <input type="text" class="form-control" placeholder="Username">
+                            </div>
+
+                            <div class="single-form-input inline-form-input">
+                              <input type="password" class="form-control" placeholder="Passowrd">
+                            </div>
+
+                            <div class="form-check single-form-input inline-form-input">
+                              <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                              <label class="form-check-label" for="inlineFormCheck">
+                                Remember me
+                              </label>
+                            </div>
+
+                            <div class="single-form-input inline-form-input">
+                              <button type="submit" class="button button-2x color-combo-4">Submit</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--===== content body end =====-->
+    </div>
+
+    <!-- jQuery JS -->
+    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="js/vendor/jquery-3.4.1.min.js"></script>
+
+    <!-- bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- slick JS -->
+
+
+    <!-- main JS -->
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>

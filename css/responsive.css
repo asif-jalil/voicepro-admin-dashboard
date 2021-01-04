@@ -1,0 +1,197 @@
+@media (min-width: 1200px) {
+  .lsx-modal-wide .modal-dialog {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .dashboard-card {
+    padding: 12px 10px;
+  }
+
+  .dashboard-card>i {
+    font-size: 30px;
+  }
+
+  .dashboard-card-info span {
+    font-size: 28px;
+  }
+
+  .dashboard-card-info p {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .header {
+    margin-left: 0px;
+  }
+
+  .sidebar {
+    left: -250px;
+  }
+
+  .content-body {
+    margin-left: 0px;
+  }
+
+  .main-wrapper.active .header {
+    transform: translateX(250px);
+    -webkit-transform: translateX(250px);
+    -moz-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -o-transform: translateX(250px);
+  }
+
+  .main-wrapper.active .sidebar {
+    left: 0;
+  }
+
+  .main-wrapper.active .content-body {
+    transform: translateX(250px);
+    -webkit-transform: translateX(250px);
+    -moz-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -o-transform: translateX(250px);
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .dashboard-card {
+    padding: 12px 10px;
+  }
+
+  .dashboard-card>i {
+    font-size: 30px;
+  }
+
+  .dashboard-card-info span {
+    font-size: 28px;
+  }
+
+  .dashboard-card-info p {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+  .main-title {
+    font-size: 22px;
+    padding: 15px 20px;
+  }
+
+  .bruiser-img-1 img {
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    padding: 0 12px;
+    margin-left: 0;
+    z-index: 9;
+  }
+
+  .content-body {
+    margin-top: 60px;
+  }
+
+  .main-title {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
+
+  .button-1x {
+    width: 75px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 13px;
+  }
+
+  .button-2x {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+
+  .button-3x {
+    width: 130px;
+    height: 42px;
+    line-height: 43px;
+    font-size: 15px;
+  }
+
+  .button-auto {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .single-form-input.form-check {
+    padding-left: 0;
+  }
+
+  .main-title.on-profile .edit-profile {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .profile-details-wrap h4,
+  .disclaimer-text h4 {
+    font-size: 22px;
+  }
+
+  .profile-single-info {
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  .profile-single-info .title {
+    flex-basis: unset;
+  }
+
+  .profile-single-logo {
+    text-align: center;
+  }
+
+  .disclaimer-text p {
+    padding: 20px 10px;
+  }
+
+  .bruiser-img-1 img {
+    height: auto;
+  }
+
+  .log-reg-page {
+    padding: 30px 0;
+  }
+
+  .log-reg-form,
+  .log-reg-intro {
+    padding: 50px 20px;
+  }
+
+  .log-reg-form-input input {
+    width: 230px;
+  }
+
+  .log-reg-intro p br {
+    display: none;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .bruiser-img-1 img {
+    height: 320px;
+  }
+
+  .log-reg-form-input input {
+    width: 280px;
+  }
+}

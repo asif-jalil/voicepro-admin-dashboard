@@ -1,0 +1,335 @@
+form {
+  position: relative;
+  margin: 50px auto 0;
+  font-size: 15px;
+}
+
+/* ===== Rabio Button Color 1 ===== */
+.radio-color-1 label:before {
+  background: #27A9E3 !important;
+}
+
+.radio-color-1 label:after {
+  border: 1px solid #27A9E3 !important;
+}
+
+.radio-color-1 input[type="radio"]:hover:not(:checked)+label:after {
+  background: rgba(39, 167, 227, 0.2) !important;
+}
+
+.radio-color-1 input[type="radio"]:checked+label:before {
+  background: #27A9E3 !important;
+}
+
+/* ===== Rabio Button Color 2 ===== */
+.radio-color-2 label:before {
+  background: #28B779 !important;
+}
+
+.radio-color-2 label:after {
+  border: 1px solid #28B779 !important;
+}
+
+.radio-color-2 input[type="radio"]:hover:not(:checked)+label:after {
+  background: rgba(40, 183, 121, 0.2) !important;
+}
+
+.radio-color-2 input[type="radio"]:checked+label:before {
+  background: #28B779 !important;
+}
+
+/* ===== Rabio Button Color 3 ===== */
+.radio-color-3 label:before {
+  background: #FFB848 !important;
+}
+
+.radio-color-3 label:after {
+  border: 1px solid #FFB848 !important;
+}
+
+.radio-color-3 input[type="radio"]:hover:not(:checked)+label:after {
+  background: rgba(255, 185, 72, 0.2) !important;
+}
+
+.radio-color-3 input[type="radio"]:checked+label:before {
+  background: #FFB848 !important;
+}
+
+/* ===== Rabio Button Color 4 ===== */
+.radio-color-4 label:before {
+  background: #DA542E !important;
+}
+
+.radio-color-4 label:after {
+  border: 1px solid #DA542E !important;
+}
+
+.radio-color-4 input[type="radio"]:hover:not(:checked)+label:after {
+  background: rgba(218, 83, 46, 0.2) !important;
+}
+
+.radio-color-4 input[type="radio"]:checked+label:before {
+  background: #DA542E !important;
+}
+
+/* ===== Rabio Button Color 5 ===== */
+.radio-color-5 label:before {
+  background: #2255A4 !important;
+}
+
+.radio-color-5 label:after {
+  border: 1px solid #2255A4 !important;
+}
+
+.radio-color-5 input[type="radio"]:hover:not(:checked)+label:after {
+  background: rgba(34, 86, 164, 0.2) !important;
+}
+
+.radio-color-5 input[type="radio"]:checked+label:before {
+  background: #2255A4 !important;
+}
+
+/* ===== Rabio Button Color 6 ===== */
+.radio-color-5 label:before {
+  background: #e63946 !important;
+}
+
+.radio-color-6 label:after {
+  border: 1px solid #e63946 !important;
+}
+
+.radio-color-6 input[type="radio"]:hover:not(:checked)+label:after {
+  background: rgba(230, 57, 71, 0.2) !important;
+}
+
+.radio-color-6 input[type="radio"]:checked+label:before {
+  background: #e63946 !important;
+}
+
+/* ===== Checkbox Button Color 1 ===== */
+.check-color-1 label:after {
+  border: 1px solid #27A9E3 !important;
+}
+
+.check-color-1 input[type="checkbox"]:hover:not(:checked)+label:after {
+  background: rgba(39, 167, 227, 0.2) !important;
+}
+
+.check-color-1 input[type="checkbox"]:checked+label:after {
+  background: #27A9E3 !important;
+}
+
+/* ===== Checkbox Button Color 2 ===== */
+.check-color-2 label:after {
+  border: 1px solid #28B779 !important;
+}
+
+.check-color-2 input[type="checkbox"]:hover:not(:checked)+label:after {
+  background: rgba(40, 183, 121, 0.2) !important;
+}
+
+.check-color-2 input[type="checkbox"]:checked+label:after {
+  background: #28B779 !important;
+}
+
+/* ===== Checkbox Button Color 3 ===== */
+.check-color-3 label:after {
+  border: 1px solid #FFB848 !important;
+}
+
+.check-color-3 input[type="checkbox"]:hover:not(:checked)+label:after {
+  background: rgba(255, 185, 72, 0.2) !important;
+}
+
+.check-color-3 input[type="checkbox"]:checked+label:after {
+  background: #FFB848 !important;
+}
+
+/* ===== Checkbox Button Color 4 ===== */
+.check-color-4 label:after {
+  border: 1px solid #DA542E !important;
+}
+
+.check-color-4 input[type="checkbox"]:hover:not(:checked)+label:after {
+  background: rgba(218, 83, 46, 0.2) !important;
+}
+
+.check-color-4 input[type="checkbox"]:checked+label:after {
+  background: #DA542E !important;
+}
+
+/* ===== Checkbox Button Color 5 ===== */
+.check-color-5 label:after {
+  border: 1px solid #2255A4 !important;
+}
+
+.check-color-5 input[type="checkbox"]:hover:not(:checked)+label:after {
+  background: rgba(34, 86, 164, 0.2) !important;
+}
+
+.check-color-5 input[type="checkbox"]:checked+label:after {
+  background: #2255A4 !important;
+}
+
+/* ===== Checkbox Button Color 6 ===== */
+.check-color-6 label:after {
+  border: 1px solid #e63946 !important;
+}
+
+.check-color-6 input[type="checkbox"]:hover:not(:checked)+label:after {
+  background: rgba(230, 57, 71, 0.2) !important;
+}
+
+.check-color-6 input[type="checkbox"]:checked+label:after {
+  background: #e63946 !important;
+}
+
+
+.radiobtn,
+.checkbtn {
+  position: relative;
+  display: inline-block;
+}
+
+.radiobtn label,
+.checkbtn label {
+  display: block;
+  color: #444;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 22px;
+  /* margin-bottom: 5px; */
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.radiobtn label:after,
+.radiobtn label:before,
+.checkbtn label:after,
+.checkbtn label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+
+.radiobtn label:after,
+.radiobtn label:before {
+  border-radius: 50%;
+}
+
+.radiobtn label:before,
+.checkbtn label:before {
+  background: transparent;
+  transition: 0.1s width cubic-bezier(0.075, 0.82, 0.165, 1) 0s, 0.3s height cubic-bezier(0.075, 0.82, 0.165, 2) 0.1s, top 0.2s;
+  z-index: 2;
+  top: 150%;
+  visibility: hidden;
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: center;
+  width: 0;
+  height: 0;
+  border: 1px solid transparent;
+  background-image: url(../img/check.svg);
+}
+
+.radiobtn label:before {
+  left: 5px;
+  background-image: none;
+  border-radius: 50%;
+  transition: 0.1s width cubic-bezier(0.075, 0.82, 0.165, 1) 0s, 0.3s height cubic-bezier(0.86, 0.99, 0.17, 2) 0.1s, top 0.2s;
+}
+
+.radiobtn label:after,
+.checkbtn label:after {
+  transition: 0.1s width cubic-bezier(0.075, 0.82, 0.165, 1) 0s, 0.3s height cubic-bezier(0.075, 0.82, 0.165, 2) 0.1s;
+}
+
+.radiobtn input[type="radio"],
+.checkbtn input[type="checkbox"] {
+  display: none;
+  position: absolute;
+  width: 100%;
+  appearance: none;
+}
+
+.checkbtn input[type="checkbox"]:checked+label:after,
+.radiobtn input[type="radio"]:checked+label:before {
+  animation-name: blink;
+  animation-duration: 1300ms;
+}
+
+.radiobtn input[type="radio"]:checked+label:before,
+.checkbtn input[type="checkbox"]:checked+label:before {
+  top: 50%;
+  visibility: visible;
+  width: 15px;
+  height: 15px;
+}
+
+.radiobtn input[type="radio"]:checked+label:before {
+  width: 5px;
+  height: 5px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 1;
+
+  }
+
+  11% {
+    opacity: 0.7;
+
+  }
+
+  29% {
+    opacity: 0.7;
+
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-height:767px) {
+
+  .radiobtn label,
+  .checkbtn label {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+}
